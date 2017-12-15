@@ -30,6 +30,14 @@ public class User implements Serializable {
     public void setUsername(String username) {
         this.username = username == null ? null : username.trim();
     }
+    
+//    定义了一个新的方法叫sayhi
+    public void say(){
+    	System.out.println("22222");
+    	System.out.println("22222");
+    	System.out.println("22222");
+    	System.out.println("22222");
+    }
 
     @Override
     public String toString() {
